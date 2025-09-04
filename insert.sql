@@ -1,0 +1,72 @@
+INSERT INTO food_items (category_id, name, description, price, image, is_available, created_at) VALUES
+-- Pizza (category_id = 1)
+(1, 'Margherita', 'Classic cheese and tomato pizza', 199.00, NULL, 1, CURRENT_TIMESTAMP),
+(1, 'Pepperoni', 'Pepperoni slices on mozzarella', 249.00, NULL, 1, CURRENT_TIMESTAMP),
+(1, 'BBQ Chicken', 'Grilled chicken with BBQ sauce', 269.00, NULL, 1, CURRENT_TIMESTAMP),
+(1, 'Veggie Delight', 'Loaded with fresh vegetables', 229.00, NULL, 1, CURRENT_TIMESTAMP),
+(1, 'Paneer Tikka', 'Indian paneer cubes on pizza', 259.00, NULL, 1, CURRENT_TIMESTAMP),
+(1, 'Four Cheese', 'Blend of 4 premium cheeses', 279.00, NULL, 1, CURRENT_TIMESTAMP),
+(1, 'Hawaiian', 'Ham and pineapple toppings', 269.00, NULL, 1, CURRENT_TIMESTAMP),
+(1, 'Farmhouse', 'Tomato, onion, capsicum, mushroom', 239.00, NULL, 1, CURRENT_TIMESTAMP),
+(1, 'Mexican Green Wave', 'Spicy jalapeno and capsicum', 249.00, NULL, 1, CURRENT_TIMESTAMP),
+(1, 'Cheese Burst', 'Extra cheese layered inside crust', 289.00, NULL, 1, CURRENT_TIMESTAMP),
+
+-- Burger (category_id = 2)
+(2, 'Classic Veg Burger', 'Aloo patty with lettuce and mayo', 99.00, NULL, 1, CURRENT_TIMESTAMP),
+(2, 'Cheese Burger', 'Grilled patty with cheese', 129.00, NULL, 1, CURRENT_TIMESTAMP),
+(2, 'Chicken Burger', 'Spicy chicken patty', 149.00, NULL, 1, CURRENT_TIMESTAMP),
+(2, 'Double Patty Burger', 'Two patties with extra toppings', 179.00, NULL, 1, CURRENT_TIMESTAMP),
+(2, 'Paneer Burger', 'Crispy paneer patty with mayo', 139.00, NULL, 1, CURRENT_TIMESTAMP),
+(2, 'Spicy Veg Burger', 'Spicy patty with jalapenos', 119.00, NULL, 1, CURRENT_TIMESTAMP),
+(2, 'Bacon Burger', 'Smoky bacon and beef patty', 199.00, NULL, 1, CURRENT_TIMESTAMP),
+(2, 'Grilled Chicken Burger', 'Low-fat grilled chicken option', 159.00, NULL, 1, CURRENT_TIMESTAMP),
+(2, 'Mushroom Burger', 'Juicy mushrooms and cheese', 149.00, NULL, 1, CURRENT_TIMESTAMP),
+(2, 'Fish Burger', 'Crispy fish patty and tartar sauce', 169.00, NULL, 1, CURRENT_TIMESTAMP),
+
+-- Pasta (category_id = 3)
+(3, 'Penne Alfredo', 'Creamy white sauce pasta', 229.00, NULL, 1, CURRENT_TIMESTAMP),
+(3, 'Spaghetti Bolognese', 'Red sauce with ground meat', 249.00, NULL, 1, CURRENT_TIMESTAMP),
+(3, 'Pasta Arrabiata', 'Spicy red sauce penne', 219.00, NULL, 1, CURRENT_TIMESTAMP),
+(3, 'Cheesy Macaroni', 'Macaroni with cheese sauce', 199.00, NULL, 1, CURRENT_TIMESTAMP),
+(3, 'Pesto Pasta', 'Basil pesto with penne', 239.00, NULL, 1, CURRENT_TIMESTAMP),
+(3, 'Veggie Pasta', 'Loaded with fresh vegetables', 209.00, NULL, 1, CURRENT_TIMESTAMP),
+(3, 'Mushroom Pasta', 'Creamy mushroom sauce', 229.00, NULL, 1, CURRENT_TIMESTAMP),
+(3, 'Chicken Alfredo', 'Chicken with white sauce', 259.00, NULL, 1, CURRENT_TIMESTAMP),
+(3, 'Garlic Butter Pasta', 'Garlic flavored spaghetti', 189.00, NULL, 1, CURRENT_TIMESTAMP),
+(3, 'Lasagna', 'Layered baked pasta with cheese', 269.00, NULL, 1, CURRENT_TIMESTAMP),
+
+-- Sushi (category_id = 4)
+(4, 'California Roll', 'Crab, avocado and cucumber', 299.00, NULL, 1, CURRENT_TIMESTAMP),
+(4, 'Spicy Tuna Roll', 'Tuna with chili mayo', 329.00, NULL, 1, CURRENT_TIMESTAMP),
+(4, 'Salmon Nigiri', 'Sliced salmon on rice', 349.00, NULL, 1, CURRENT_TIMESTAMP),
+(4, 'Eel Roll', 'Grilled eel with sauce', 359.00, NULL, 1, CURRENT_TIMESTAMP),
+(4, 'Vegetable Roll', 'Carrots, cucumber, and avocado', 269.00, NULL, 1, CURRENT_TIMESTAMP),
+(4, 'Shrimp Tempura Roll', 'Fried shrimp with rice', 339.00, NULL, 1, CURRENT_TIMESTAMP),
+(4, 'Dragon Roll', 'Eel and cucumber with avocado', 379.00, NULL, 1, CURRENT_TIMESTAMP),
+(4, 'Rainbow Roll', 'Mixed fish and avocado on top', 399.00, NULL, 1, CURRENT_TIMESTAMP),
+(4, 'Tamago Nigiri', 'Sweet egg on sushi rice', 289.00, NULL, 1, CURRENT_TIMESTAMP),
+(4, 'Philadelphia Roll', 'Salmon, cream cheese, cucumber', 319.00, NULL, 1, CURRENT_TIMESTAMP),
+
+-- Indian (category_id = 5)
+(5, 'Butter Chicken', 'Creamy tomato chicken curry', 299.00, NULL, 1, CURRENT_TIMESTAMP),
+(5, 'Paneer Butter Masala', 'Rich tomato-based paneer curry', 259.00, NULL, 1, CURRENT_TIMESTAMP),
+(5, 'Chole Bhature', 'Spicy chickpeas with fried bread', 149.00, NULL, 1, CURRENT_TIMESTAMP),
+(5, 'Dal Makhani', 'Slow-cooked black lentils', 199.00, NULL, 1, CURRENT_TIMESTAMP),
+(5, 'Biryani', 'Spiced rice with meat or veggies', 279.00, NULL, 1, CURRENT_TIMESTAMP),
+(5, 'Rajma Chawal', 'Kidney beans with rice', 179.00, NULL, 1, CURRENT_TIMESTAMP),
+(5, 'Tandoori Chicken', 'Chargrilled spicy chicken', 299.00, NULL, 1, CURRENT_TIMESTAMP),
+(5, 'Palak Paneer', 'Spinach and paneer curry', 239.00, NULL, 1, CURRENT_TIMESTAMP),
+(5, 'Aloo Paratha', 'Stuffed potato flatbread', 129.00, NULL, 1, CURRENT_TIMESTAMP),
+(5, 'Kadhai Chicken', 'Chicken in spiced gravy', 289.00, NULL, 1, CURRENT_TIMESTAMP),
+
+-- Desserts (category_id = 6)
+(6, 'Gulab Jamun', 'Sweet deep-fried milk balls', 99.00, NULL, 1, CURRENT_TIMESTAMP),
+(6, 'Rasgulla', 'Soft syrup-soaked sweet balls', 99.00, NULL, 1, CURRENT_TIMESTAMP),
+(6, 'Ice Cream Sundae', 'Layered ice cream dessert', 149.00, NULL, 1, CURRENT_TIMESTAMP),
+(6, 'Chocolate Cake', 'Rich and moist chocolate cake', 179.00, NULL, 1, CURRENT_TIMESTAMP),
+(6, 'Brownie', 'Chocolate brownie with nuts', 129.00, NULL, 1, CURRENT_TIMESTAMP),
+(6, 'Cheesecake', 'Creamy cheese-based dessert', 199.00, NULL, 1, CURRENT_TIMESTAMP),
+(6, 'Kheer', 'Indian rice pudding', 109.00, NULL, 1, CURRENT_TIMESTAMP),
+(6, 'Falooda', 'Cold dessert with noodles and ice cream', 139.00, NULL, 1, CURRENT_TIMESTAMP),
+(6, 'Mango Mousse', 'Fluffy mango dessert', 159.00, NULL, 1, CURRENT_TIMESTAMP),
+(6, 'Fruit Salad', 'Chopped fresh fruits', 119.00, NULL, 1, CURRENT_TIMESTAMP);
